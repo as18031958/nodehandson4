@@ -1,7 +1,7 @@
 
 const express = require("express");
 const route = express.Router();
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const saltRound = 10;
 const secretKey = "acharya"
 const jwt = require('jsonwebtoken')
